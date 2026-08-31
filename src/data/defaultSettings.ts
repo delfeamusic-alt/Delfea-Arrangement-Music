@@ -1,0 +1,103 @@
+import { SiteSettings } from '../types';
+import { GENRE_DATA, SERVICES_DATA, STUDIO_WORKFLOW } from './mockData';
+
+export const DEFAULT_SITE_SETTINGS: SiteSettings = {
+  branding: {
+    brandName: 'DELFEA',
+    brandTagline: 'ARRANGEMENT MUSIC',
+    brandBadge: 'STUDIO',
+    logoType: 'icon',
+    logoImageUrl: '',
+    logoIcon: 'Music2',
+    brandAccent: 'gold',
+  },
+  contact: {
+    whatsappNumber: '+62 812-3456-7890',
+    whatsappRaw: '6281234567890',
+    email: 'delfeamusic@gmail.com',
+    location: 'Jakarta, Indonesia (Studio & Remote Online)',
+    studioStatus: 'Studio Open',
+    socialLinks: {
+      youtube: 'https://youtube.com/@delfeamusic',
+      tiktok: 'https://tiktok.com/@delfeamusic',
+      instagram: 'https://instagram.com/delfeamusic',
+      spotify: 'https://open.spotify.com/artist/delfeamusic',
+      x: 'https://x.com/delfeamusic',
+      facebook: 'https://facebook.com/delfeamusic',
+    },
+  },
+  hero: {
+    badgeText: 'Studio Aransemen Musik & Produksi Audio Multi-Genre',
+    badgeSubtext: 'Kualitas Standar Industri',
+    headlinePart1: 'Delfea Arrangement Music: ',
+    headlinePart2Highlight: 'Satu Studio untuk Semua Genre dan Ritme.',
+    subheadline: 'Mewujudkan imajinasi musikal Anda tanpa batas genre. Dari harmoni Jazz yang rumit hingga dentuman Dangdut dan aura magis Gamelan.',
+    btnCatalogText: 'Karya Musik Kami',
+    btnGenreText: 'Pameran Genre',
+    btnConsultText: 'Konsultasi Proyek',
+    trustBadges: [
+      {
+        id: 'badge-1',
+        title: 'Multi-Stems 24-bit',
+        subtitle: 'Audio resolusi tinggi',
+        icon: 'Sliders',
+      },
+      {
+        id: 'badge-2',
+        title: 'Fleksibilitas Bebas',
+        subtitle: 'Semua genre & ritme',
+        icon: 'Flame',
+      },
+      {
+        id: 'badge-3',
+        title: 'Full Copyright',
+        subtitle: 'Hak cipta penuh klien',
+        icon: 'ShieldCheck',
+      },
+      {
+        id: 'badge-4',
+        title: 'Revisi Terarah',
+        subtitle: 'Hasil sesuai ekspektasi',
+        icon: 'Sparkles',
+      },
+    ],
+  },
+  genreShowcase: {
+    badge: 'Interactive Genre Showcase',
+    title: 'Pameran Genre Interaktif',
+    description: 'Eksplorasi ragam warna musik yang dikerjakan dengan presisi tinggi di Delfea Studio. Klik tombol putar pada setiap kartu untuk mendengarkan sampel audio secara langsung.',
+    genres: GENRE_DATA,
+  },
+  servicesSection: {
+    badge: 'Solusi Produksi Audio Komprehensif',
+    title: 'Layanan Unggulan Kami',
+    description: 'Dari aransemen orkestrasi orisinal hingga penggabungan lintas genre yang revolusioner, kami mendedikasikan presisi teknis dan artistik untuk karya Anda.',
+    services: SERVICES_DATA,
+    fusionLabBadge: 'Speciality Delfea: Cross-Genre Fusion',
+    fusionLabTitle: 'Laboratorium Eksplorasi Antar-Genre',
+    fusionLabDesc: 'Mematahkan batasan konvensional. Simak bagaimana kami meleburkan identitas musik tradisional Nusantara dengan aransemen modern global.',
+    workflowBadge: 'Transparansi Proses',
+    workflowTitle: 'Alur Kerja Standar Industri Delfea',
+    workflowSteps: STUDIO_WORKFLOW,
+  },
+  catalogSection: {
+    badge: 'Portofolio Audio & Diskografi Resmi',
+    title: 'Katalog Musik yang Telah Kami Buat',
+    description: 'Dengarkan karya aransemen orisinal, track rekaman resmi, dan tautan platform streaming dari proyek-proyek musik yang telah dipercayakan kepada Delfea Studio.',
+  },
+  contactSection: {
+    bannerBadge: 'Mulai Kolaborasi Artistik',
+    bannerTitle: 'Siap Mengubah Gagasan Musik Anda Menjadi Mahakarya?',
+    bannerDescription: 'Kirimkan ide, melodi vokal mentah, atau draft rekaman Anda. Tim arranger Delfea siap mentransformasikannya menjadi produksi audio berstandar industri.',
+    bannerButtonText: 'Mulai Aransemen Musikmu',
+    formTitle: 'Formulir Pengajuan Proyek & Konsultasi',
+    formDescription: 'Isi data konsep musik Anda di bawah ini untuk mendapatkan estimasi produksi & jadwal studio.',
+    whatsappGreetingTemplate: 'Halo {brandName}, saya ingin berkonsultasi mengenai proyek musik:',
+  },
+  footer: {
+    description: 'Studio aransemen dan produksi musik profesional lintas genre. Mewujudkan gagasan musikal Anda dengan sentuhan artistik, dinamika nada, dan standar komersial global.',
+    copyrightText: 'Delfea Arrangement Music. Seluruh Hak Cipta Dilindungi.',
+    slogan: 'Satu Studio untuk Semua Genre dan Ritme.',
+  },
+  adminPin: '1234',
+};

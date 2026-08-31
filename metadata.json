@@ -1,0 +1,6 @@
+{
+  "name": "Delfea Arrangement Music",
+  "description": "Studio aransemen dan produksi musik profesional untuk semua genre dan ritme — Jazz, Bossanova, Pop, Dangdut, Gamelan hingga Cross-Genre Fusion.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
